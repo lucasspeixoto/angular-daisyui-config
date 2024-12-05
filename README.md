@@ -2,6 +2,8 @@
 
 Repositório do projeto criado no meu canal do youtube sobre a ferramenta DaisyUI, acesse aqui: [Vídeo](https://youtu.be/pNFMXouQVo8)
 
+![Capa](public/capa.png 'Capa')
+
 ## Clone
 
 Clone o repositório
