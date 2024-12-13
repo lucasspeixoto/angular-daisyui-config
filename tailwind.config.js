@@ -3,11 +3,12 @@ module.exports = {
   content: ['./src/**/*.{html,ts}'],
   daisyui: {
     themes: ['forest', 'pastel'],
-    themeRoot: ':body',
+    themeRoot: ':body'
   },
   darkMode: ['selector', '[data-theme="forest"]'],
   theme: {
     extend: {},
   },
   plugins: [require('daisyui')],
-};
+}
+
