@@ -1,12 +1,14 @@
 import { Component } from '@angular/core';
-import { HeaderComponent } from './layout/header/header.component';
-import { FooterComponent } from './layout/footer/footer.component';
-import { ContentComponent } from './components/content/content.component';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [HeaderComponent, FooterComponent, ContentComponent],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  imports: [RouterOutlet],
+  template: `
+    <div class="overflow-x-hidden">
+      <router-outlet />
+    </div>
+  `,
+  styles: ``,
 })
 export class AppComponent {}
